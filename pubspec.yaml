@@ -35,6 +35,12 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
 
+  # For SharedPreferences (Part C)
+  shared_preferences: ^2.2.0
+
+  # For Firebase Core initialization (Part D)
+  firebase_core: ^2.27.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -63,7 +69,7 @@ flutter:
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
-  # https://flutter.dev/to/resolution-aware-images
+  # https://flutter.dev/to/resolution-assets
 
   # For details regarding adding assets from package dependencies, see
   # https://flutter.dev/to/asset-from-package
